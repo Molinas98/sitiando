@@ -1545,13 +1545,9 @@ input[type=email]:focus, input[type=password]:focus, textarea:focus, select:focu
   font-weight: 600;
   margin-bottom: 2rem;
 }
-.terminos-section h2 {
-  font-weight: 600;
-  line-height: 1.3;
-  margin: 2rem 0;
-}
 .terminos-section h3 {
   margin-bottom: 1rem;
+  font-size: clamp(1.375rem, 1.225rem + 0.6vw, 1.75rem);
 }
 
 .termino {
