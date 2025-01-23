@@ -177,6 +177,11 @@
             margin-top: 1rem;
         }
     }
+
+    .terminos-section, .extras-section, .nosotros-section,
+    .servicios-section, .disenhos-section, .integracioens-section {
+        padding: 50px 0 !important;
+    }
 } 
 
 @media (max-width: 576px) {

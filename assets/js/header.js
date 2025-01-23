@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+        $(".offcanvas-backdrop").collapse('hide');
+        document.body.style.overflow = 'auto';
+    });
+
     AOS.init({
         duration: 1000,
         once: true
