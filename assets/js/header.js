@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    $('.navbar-collapse a').click(function(){
+    $('.navbar-collapse a:not(.nav-link)').click(function(){
         $(".navbar-collapse").collapse('hide');
         $(".offcanvas-backdrop").collapse('hide');
         document.body.style.overflow = 'auto';
