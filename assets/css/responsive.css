@@ -1,0 +1,163 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+@media (max-width: 1400px) {
+  .tarifas-section .tarifa .info.pago {
+    width: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar {
+    font-size: 15px;
+    font-weight: 500;
+    height: 84px;
+  }
+  .navbar .acciones {
+    display: flex;
+    position: relative;
+    padding-left: 50px;
+  }
+  .navbar-nav .nav-link {
+    padding: 0 !important;
+  }
+  .categorias > li {
+    margin: 0 !important;
+    padding: 10px;
+  }
+  .nav-item, .nav-item li {
+    padding-left: 16px !important;
+  }
+  .categorias > li:not(:last-child) {
+    border-bottom: 1px solid var(--darkblue2);
+    z-index: 1;
+  }
+  .active::after {
+    display: none;
+  }
+  .mega-menu {
+    background-color: transparent;
+    padding: 0;
+    margin-left: 0px;
+  }
+  .mega-menu ul li {
+    padding: 5px 0;
+    color: var(--text);
+  }
+  .nav-link {
+    padding: 0;
+  }
+  .mega-menu::before {
+    display: none;
+  }
+  .mega-dropdown a {
+    height: 40px;
+  }
+  .categorias li:not(.close):not(.mega-dropdown) {
+    height: 60px;
+  }
+  .navbar .btn-base {
+    margin-top: 1.5rem;
+    margin-inline: auto;
+  }
+  .info-section .mascota {
+    top: auto;
+    bottom: 10%;
+    left: auto;
+    right: 10%;
+    transform: translate(0, 0);
+  }
+  .tarifas-section ul {
+    flex-direction: column;
+  }
+  .tarifas-section ul li {
+    margin-bottom: 1.5rem;
+  }
+  .section-preguntas .float:nth-of-type(3) {
+    display: none;
+  }
+  .info-section {
+    padding-top: 60px;
+  }
+  .proposito-section .center-x {
+    align-items: end;
+  }
+}
+@media (max-width: 991px) {
+  .propuestas-section .center-x img {
+    max-width: 100%;
+    margin-inline: auto;
+  }
+  .proposito-section p {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+    line-height: 37px; /* 115.556% */
+  }
+  h1 .text-blue {
+    font-size: 40px;
+  }
+  .footer-bottom .container {
+    padding: 10px 10px;
+  }
+  .info-section {
+    margin-bottom: 160px;
+  }
+  .info-section .mascota {
+    top: auto;
+    bottom: -140px;
+    left: auto;
+    right: 0;
+  }
+  .soluciones-section .ver-mas {
+    height: 300px;
+  }
+  .soluciones-section .ver-mas .box {
+    left: auto;
+    right: -100px;
+    bottom: 0;
+  }
+  .tarifas-section .tarifa {
+    flex-direction: column;
+  }
+  .tarifas-section .tarifa .info {
+    width: 100%;
+  }
+  .tarifas-section .tarifa .info.pago {
+    width: 100%;
+  }
+  .tarifas-section .tarifa .ct-precio {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .soluciones-section .solucion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .soluciones-section .solucion p {
+    text-align: center;
+    max-width: 250px;
+  }
+  .section-preguntas .float:nth-of-type(1) {
+    top: -50px;
+    opacity: 0.8;
+  }
+  .section-preguntas .float:nth-of-type(2) {
+    top: 80px;
+    opacity: 0.8;
+  }
+  .disenhos-section .disenho {
+    margin-inline: 0;
+  }
+  .disenhos-section .disenho .between-x {
+    padding-inline: 0.5rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */
